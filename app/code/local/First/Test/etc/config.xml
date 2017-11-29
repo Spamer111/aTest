@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <First_Test>
+            <version>1.0.0</version>
+        </First_Test>
+    </modules>
+    <global>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <first>
+                    <file>first/test.xml</file>
+                </first>
+            </updates>
+        </layout>
+    </frontend>
+</config>

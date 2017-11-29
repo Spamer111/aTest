@@ -1,0 +1,33 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tbody><tr>
+            <td><h3 class="icon-head head-report-sales-sales">Category Report</h3></td>
+        </tr>
+        </tbody></table>
+</div>
+<div class="grid">
+    <div class="hor-scroll">
+        <table cellspacing="0" class="data" ">
+            <thead>
+            <tr class="headings">
+                <th class=" no-link"><span class="nobr">Category Id</span></th>
+                <th class=" no-link"><span class="nobr">Category Name</span></th>
+                <th class=" no-link"><span class="nobr">Price > 10$</span></th>
+                <th class=" no-link"><span class="nobr">Qty<3</span></th>
+                <th class=" no-link"><span class="nobr">Name contains 'A'</span></th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($this->getReport() as $report):?>
+            <tr class="even">
+                <th class=" no-link"><span class="nobr"><?php echo $report['id'];?></span></th>
+                <th class=" no-link"><span class="nobr"><?php echo $report['name'];?></span></th>
+                <th class=" no-link"><span class="nobr"><?php echo $report['pricesize'];?></span></th>
+                <th class=" no-link"><span class="nobr"><?php echo $report['qtysize'];?></span></th>
+                <th class=" no-link"><span class="nobr"><?php echo $report['namesize'];?></span></th>
+            </tr>
+            <?endforeach;?>
+            </tbody>
+        </table>
+    </div>
+</div>

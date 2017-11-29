@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Second_Test>
+            <version>1.0.0</version>
+        </Second_Test>
+    </modules>
+    <global>
+        <blocks>
+            <second_test>
+                <class>Second_Test_Block</class>
+            </second_test>
+        </blocks>
+    </global>
+    <frontend>
+
+    </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <second>Second_Test_Adminhtml</second>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>
+

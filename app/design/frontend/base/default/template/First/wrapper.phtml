@@ -1,0 +1,8 @@
+<?php
+
+//echo Mage::app()->getFrontController()->getAction()->getFullActionName();
+if(Mage::app()->getLayout()->getBlock('root')->getTemplate()!='page/1column.phtml') {
+    echo $this->getChildhtml('catalog.content');
+}
+
+?>

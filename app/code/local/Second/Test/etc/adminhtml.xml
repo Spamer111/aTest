@@ -1,0 +1,28 @@
+<config>
+    <menu>
+        <system>
+            <children>
+                <test>
+                    <title>Test Three</title>
+                    <action>adminhtml/test</action>
+                    <sort_order>10</sort_order>
+                </test>
+            </children>
+        </system>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <test>
+                                <title>Test Three</title>
+                            </test>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
