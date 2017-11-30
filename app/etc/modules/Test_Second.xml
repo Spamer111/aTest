@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <congfig>
     <modules>
-        <Second_Test>
+        <Test_Second>
             <active>true</active>
             <codePool>local</codePool>
-        </Second_Test>
+        </Test_Second>
     </modules>
 </congfig>

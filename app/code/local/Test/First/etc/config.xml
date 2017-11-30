@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <config>
     <modules>
-        <First_Test>
+        <Test_First>
             <version>1.0.0</version>
-        </First_Test>
+        </Test_First>
     </modules>
     <global>
     </global>
@@ -11,7 +11,7 @@
         <layout>
             <updates>
                 <first>
-                    <file>first/test.xml</file>
+                    <file>test/first.xml</file>
                 </first>
             </updates>
         </layout>

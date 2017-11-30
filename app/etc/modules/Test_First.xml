@@ -1,14 +1,13 @@
 <?xml version="1.0" ?>
 <congfig>
     <modules>
-        <First_Test>
+        <Test_First>
             <active>true</active>
             <codePool>local</codePool>
             <depends>
-                <Mage_Page/>
                 <Mage_Catalog/>
                 <Mage_CatalogSearch/>
             </depends>
-        </First_Test>
+        </Test_First>
     </modules>
 </congfig>

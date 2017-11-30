@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Test_Second>
+            <version>1.0.0</version>
+        </Test_Second>
+    </modules>
+    <global>
+        <blocks>
+            <test_second>
+                <class>Test_Second_Block</class>
+            </test_second>
+        </blocks>
+    </global>
+    <frontend>
+    </frontend>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <second before="Mage_Adminhtml">Test_Second_Adminhtml</second>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <second>
+                    <file>test/second.xml</file>
+                </second>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>
+

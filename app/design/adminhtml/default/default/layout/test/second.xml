@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<layout>
+    <adminhtml_test_index>
+        <reference name="content">
+            <block type="test_second/adminhtml_second" name="test.second" template="test/second.phtml"/>
+        </reference>
+    </adminhtml_test_index>
+</layout>

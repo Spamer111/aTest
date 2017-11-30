@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <catalog_category_layered translate="label">
+        <reference name="content">
+            <block type="core/template" name="test" before="-" template="test/wrapper.phtml">
+               <block type="catalog/layer_view" name="catalog.content" template="catalog/layer/view.phtml">
+                    <block type="core/text_list" name="catalog.leftnav.state.renderers" as="state_renderers" />
+                </block>
+            </block>
+        </reference>
+        <reference name="left">
+            <remove name="catalog.leftnav" />
+        </reference>
+    </catalog_category_layered>
+<!--Фильтр присутствует так же в результатах поиска-->
+    <catalogsearch_result_index translate="label">
+        <reference name="content">
+             <block type="catalogsearch/layer" name="catalogsearch.content" before="-" template="catalog/layer/view.phtml">
+                <block type="core/text_list" name="catalog.leftnav.state.renderers" as="state_renderers" />
+             </block>
+        </reference>
+        <reference name="left">
+             <remove name="catalogsearch.leftnav" />
+        </reference>
+    </catalogsearch_result_index>
+
+</layout>

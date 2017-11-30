@@ -2,11 +2,11 @@
     <menu>
         <system>
             <children>
-                <test>
+                <second>
                     <title>Test Three</title>
                     <action>adminhtml/test</action>
                     <sort_order>10</sort_order>
-                </test>
+                </second>
             </children>
         </system>
     </menu>
@@ -16,9 +16,9 @@
                 <children>
                     <system>
                         <children>
-                            <test>
+                            <second>
                                 <title>Test Three</title>
-                            </test>
+                            </second>
                         </children>
                     </system>
                 </children>
